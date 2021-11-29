@@ -1,0 +1,80 @@
+body{
+    font-family: 'Balthazar', serif;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+
+}
+.mid{
+    display: block;
+    position: sticky;
+    margin: 20px auto;
+    width: 40%;
+}
+.right{
+ display: inline-block; 
+    position: absolute;
+   right: 38px;
+   padding: 2px;
+    top: 30px;
+   
+
+}
+.left img{
+    height: 60px;
+     width: 80px;
+     filter: invert(100%);
+}
+.left p{
+   
+    text-align: center;
+    color: rgb(242, 247, 240);
+    font-size: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color:  #ffc107;;
+    
+    text-decoration: none;
+}
+.navbar li a:hover{
+text-decoration: underline;
+color: bisque;
+}
+.container{
+    color: #ffc107;
+    border: 2px solid  white;
+    margin: 50px;
+    padding: 60px;
+    width: 40%;
+    border-radius: 28px;
+}
+.container h1{
+    text-align: center;
+    
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 490px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 4px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.container button{
+color: #ffc107;
+    display: block;
+    margin: 20px auto;
+    width: 23%;
+}
